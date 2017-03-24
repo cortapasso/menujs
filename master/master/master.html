@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<link rel="stylesheet" href="metisMenu.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="metisMenu.js"></script>
+	
+
+	<link rel="stylesheet" type="text/css" href="mstyle.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"> 
+	<meta charset="UTF-8">
+	<title>Master</title>
+</head>
+<body>
+	<nav>
+		<ul id="menu" class="metismenu" >
+			<li class="border topb">
+				<a class="has-arrow" aria-expanded="false" href=""><i class="fa fa-book" aria-hidden="true"></i>&ensp;Curso</a>
+				<ul class="sidemenu" aria-expanded="true">
+					<li><a href="#"><i class="fa fa-file-o" aria-hidden="true"></i>&ensp;Cadastrar Curso</a></li>
+					<li><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i>&ensp;Gerenciar Curso</a></li>
+				</ul>
+			</li>
+			<li class="border">
+				<a class="has-arrow" aria-expanded="false" href=""><i class="fa fa-puzzle-piece" aria-hidden="true"></i>&ensp;Disciplina</a>
+				<ul class="sidemenu" aria-expanded="false">
+					<li><a href="#"><i class="fa fa-file-o" aria-hidden="true"></i>&ensp;Cadastrar Disciplina</a></li>
+					<li><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i>&ensp;Gerenciar Disciplina</a></li>
+				</ul>
+			</li>
+			<li class="border">
+				<a class="has-arrow" aria-expanded="false" href=""><i class="fa fa-user" aria-hidden="true"></i>
+&ensp;Professor</a>
+				<ul class="sidemenu" aria-expanded="false">
+					<li><a href="#"><i class="fa fa-file-o" aria-hidden="true"></i>&ensp;Cadastrar Professor</a></li>
+					<li><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i>&ensp;Gerenciar Professor</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+
+	<script>
+		$(function() {
+  $('#menu').metisMenu({
+    toggle: true // disable the auto collapse. Default: true.
+  });
+});
+	</script>
+
+</body>
+</html>
